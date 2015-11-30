@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>
+			Ray caster
+		</title>
+	</head>
+
+	<body>
+		<canvas id="minimap-canvas">
+		</canvas>
+		<canvas id="main-canvas">
+		</canvas>
+		<br/>
+		Fov: <input id="fov" value="60">
+		<br/>
+		<br/>
+		<canvas id="texture-canvas">
+		</canvas>
+
+		<script src="raycaster.js"></script>
+		<script>
+		window.onload = function() {
+			caster.start();
+		};
+		</script>
+	</body>
+</html>
